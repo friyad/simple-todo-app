@@ -35,7 +35,7 @@ export default function TodoList() {
           .filter(filterByColors)
           .map((todo) => <Todo todo={todo} key={todo.id} />)
       ) : (
-        <p className="text-center text-sm">No data found</p>
+        <p className="text-center text-sm">-No data found-</p>
       )}
     </div>
   );
